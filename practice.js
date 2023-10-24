@@ -695,8 +695,8 @@ for(let i = 0; i<user.friend.purchased.length; i++){
         person.age++
         person.name.toUpperCase()
     }
-
-    console.log(oldAndLoud(user))
+    oldAndLoud(user)
+    console.log(user)
 
    
 
